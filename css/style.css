@@ -299,6 +299,24 @@ p + p { margin-top: 1rem; }
 .btn-ghost { border-color: var(--line); color: var(--text); }
 .btn-ghost:hover { border-color: var(--text); background: var(--bg-alt); }
 
+.btn-ext {
+  font-size: .9em;
+  line-height: 1;
+  transition: transform .18s var(--ease);
+}
+.btn:hover .btn-ext { transform: translate(2px, -2px); }
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* --- Hero --------------------------------------------------------------- */
 .hero { padding-top: clamp(56px, 9vw, 104px); padding-bottom: 0; }
 
