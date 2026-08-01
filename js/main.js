@@ -59,10 +59,23 @@
     });
   }
 
-  /* --- Header: sombra ao rolar ------------------------------------------ */
+  /* --- Header: sombra ao rolar + estado do link "Início" ----------------- */
   var header = document.querySelector('.site-header');
+  var homeLink = document.querySelector('.nav a[href="#top"]');
+  var TOP_ZONE = 240; // acima disso, "Início" é a seção corrente
+
+  function atTop() { return window.scrollY < TOP_ZONE; }
+
   var onScroll = function () {
     if (header) header.classList.toggle('is-stuck', window.scrollY > 8);
+    if (!homeLink) return;
+    var top = atTop();
+    homeLink.classList.toggle('is-active', top);
+    if (top) {
+      document.querySelectorAll('.nav a:not([href="#top"])').forEach(function (link) {
+        link.classList.remove('is-active');
+      });
+    }
   };
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
