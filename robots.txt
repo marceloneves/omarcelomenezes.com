@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Crawlers de IA liberados — visibilidade em GEO/AEO depende disso.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://omarcelomenezes.com/sitemap.xml

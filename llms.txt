@@ -1,0 +1,39 @@
+# Marcelo Menezes
+
+> Consultor de SEO, GEO e AEO em Santa Catarina, atendendo empresas de todo o Brasil.
+> Atua em SEO técnico (rastreio, indexação, performance), visibilidade em motores
+> generativos (AI Overviews, ChatGPT, Perplexity, Copilot) e arquitetura de conteúdo
+> por intenção de busca. Trabalha na PMTurbo, agência sediada em Florianópolis/SC,
+> aplicando o método R.O.T.A.
+
+Site de uma página só. Todo o conteúdo abaixo está em https://omarcelomenezes.com/.
+
+## Serviços
+
+- [SEO Técnico](https://omarcelomenezes.com/#servicos): auditoria de rastreio, indexação, canonicalização, paginação, renderização JavaScript, análise de logs, orçamento de rastreio, Core Web Vitals (LCP, INP, CLS) e dados estruturados.
+- [GEO — Generative Engine Optimization](https://omarcelomenezes.com/#servicos): acesso de crawlers de IA, llms.txt, citabilidade em nível de parágrafo, monitoramento de menções de marca e estratégia por plataforma.
+- [AEO e estratégia de conteúdo](https://omarcelomenezes.com/#servicos): clusters semânticos por sobreposição de SERP, briefings competitivos, matriz de links internos e sinais de E-E-A-T.
+
+## Método R.O.T.A.
+
+- [Raio-X](https://omarcelomenezes.com/#metodo): diagnóstico da posição atual em busca orgânica, Perfil de Empresa, Maps e plataformas de IA, com problemas já priorizados.
+- [Otimização](https://omarcelomenezes.com/#metodo): base técnica e credibilidade local — Perfil de Empresa ajustado, dados do negócio padronizados, gargalos de performance corrigidos.
+- [Tração](https://omarcelomenezes.com/#metodo): conteúdo local, páginas por região, links e geração de avaliações, convertendo posição em pedido de orçamento.
+- [Autoridade](https://omarcelomenezes.com/#metodo): sinais de reputação e menções dentro de respostas de ChatGPT e AI Overview.
+
+## Perguntas frequentes
+
+- [FAQ](https://omarcelomenezes.com/#faq): prazo de resultado, formato de contrato, SEO diante de AI Overviews, produção de conteúdo, troca de CMS, e-commerce, atendimento internacional, garantia de posição e como começar.
+
+## Contato
+
+- [Instagram @omarcelomenezes](https://www.instagram.com/omarcelomenezes/)
+- [Reddit u/omarcelomenezes](https://www.reddit.com/user/omarcelomenezes/)
+- [GitHub @marceloneves](https://github.com/marceloneves)
+- [WhatsApp (48) 98810-5199](https://wa.me/5548988105199)
+
+## Optional
+
+- [PMTurbo](https://pmturbo.com/): agência onde atua, em Florianópolis/SC.
+- [Serviços da PMTurbo](https://pmturbo.com/servicos/)
+- [Método R.O.T.A. na PMTurbo](https://pmturbo.com/metodo-rota/)
