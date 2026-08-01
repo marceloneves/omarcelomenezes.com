@@ -303,11 +303,11 @@ p + p { margin-top: 1rem; }
 .hero { padding-top: clamp(56px, 9vw, 104px); padding-bottom: 0; }
 
 .hero-title {
-  font-size: clamp(3.2rem, 12vw, 8.5rem);
+  font-size: clamp(2.5rem, 6.5vw, 4.4rem);
   font-weight: 700;
-  letter-spacing: -.045em;
-  line-height: .92;
-  margin-bottom: 1.5rem;
+  letter-spacing: -.035em;
+  line-height: 1;
+  margin-bottom: 1.3rem;
 }
 
 .hero-tagline {
