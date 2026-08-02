@@ -633,18 +633,140 @@ p + p { margin-top: 1rem; }
 
 /* --- Footer ------------------------------------------------------------- */
 .site-footer {
-  border-top: 1px solid var(--line);
-  background: var(--bg-alt);
-  padding-block: 2.2rem;
+  --line: #26292a;
+  --text: #f2f3f0;
+  --text-soft: #a0a49c;
+  --accent: #7fd6a3;
+  border-top: 1px solid #26292a;
+  background: #0b0c0b;
+  color: var(--text-soft);
+  padding-block: clamp(2.6rem, 5vw, 4rem) 2rem;
+  font-size: .88rem;
 }
-.footer-inner {
+.site-footer .brand { color: var(--text); }
+.footer-grid {
+  display: grid;
+  gap: 2.4rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 640px) {
+  .footer-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 980px) {
+  .footer-grid { grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 3rem; }
+}
+.footer-brand .brand { font-size: 1.05rem; }
+.footer-tagline {
+  margin-top: .9rem;
+  max-width: 34ch;
+  line-height: 1.6;
+}
+.footer-credential {
+  margin-top: 1.1rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--line);
+  font-size: .82rem;
+  line-height: 1.55;
+}
+.footer-col h3 {
+  font-size: .78rem;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+.footer-col ul { list-style: none; padding: 0; display: grid; gap: .6rem; }
+.footer-col a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color .18s var(--ease), border-color .18s var(--ease);
+}
+.footer-col a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+.footer-bottom {
+  margin-top: clamp(2.4rem, 4vw, 3.4rem);
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--line);
   display: flex;
   flex-wrap: wrap;
   gap: .5rem 1.5rem;
   justify-content: space-between;
-  font-size: .86rem;
-  color: var(--text-soft);
+  font-size: .82rem;
 }
+
+/* --- Páginas internas --------------------------------------------------- */
+.page-head {
+  padding-top: clamp(56px, 8vw, 92px);
+  padding-bottom: clamp(24px, 4vw, 40px);
+}
+.page-head h1 {
+  font-size: clamp(2rem, 5vw, 3.1rem);
+  letter-spacing: -.03em;
+  line-height: 1.08;
+  margin-top: .6rem;
+}
+.page-head .section-sub { max-width: 62ch; }
+
+.breadcrumb { font-size: .84rem; color: var(--text-soft); }
+.breadcrumb ol { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .45rem; }
+.breadcrumb li + li::before { content: "/"; margin-right: .45rem; opacity: .55; }
+.breadcrumb a { text-decoration: none; border-bottom: 1px solid transparent; }
+.breadcrumb a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+.prose { max-width: 72ch; }
+.prose h2 {
+  font-size: clamp(1.3rem, 2.6vw, 1.7rem);
+  margin-top: 2.8rem;
+  margin-bottom: .9rem;
+}
+.prose h3 { font-size: 1.05rem; margin-top: 1.8rem; margin-bottom: .6rem; }
+.prose p, .prose li { color: var(--text-soft); }
+.prose p { margin-bottom: 1rem; }
+.prose ul, .prose ol { margin: 0 0 1.2rem 1.1rem; display: grid; gap: .5rem; }
+.prose a { color: var(--accent); }
+.prose > p:first-child { color: var(--text); font-size: 1.05rem; }
+.prose-updated {
+  margin-top: 3rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--line);
+  font-size: .84rem;
+}
+
+/* --- Regiões ------------------------------------------------------------ */
+.region-base {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 1.8rem 1.75rem;
+  margin-bottom: 2.6rem;
+}
+.region-base h2 { margin-bottom: .7rem; }
+.region-base p { color: var(--text-soft); max-width: 70ch; }
+
+.regions {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  list-style: none;
+  padding: 0;
+}
+@media (min-width: 720px)  { .regions { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1040px) { .regions { grid-template-columns: repeat(3, 1fr); } }
+.region {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.4rem;
+}
+.region h3 { font-size: 1.05rem; margin-bottom: .2rem; }
+.region .region-uf {
+  font-family: var(--font-mono);
+  font-size: .76rem;
+  letter-spacing: .08em;
+  color: var(--accent);
+}
+.region p { margin-top: .7rem; font-size: .9rem; color: var(--text-soft); }
 
 /* --- Reveal on scroll --------------------------------------------------- */
 .reveal {
