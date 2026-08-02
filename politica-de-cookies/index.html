@@ -21,7 +21,7 @@
 <meta name="twitter:image" content="https://omarcelomenezes.com/img/og-marcelo-menezes.jpg">
 
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔎</text></svg>">
-<link rel="stylesheet" href="/css/style.css?v=20260802f">
+<link rel="stylesheet" href="/css/style.css?v=20260802g">
 
 <script type="application/ld+json">
 {
@@ -119,7 +119,7 @@
 
         <h2>O que existe, então</h2>
         <p>
-          Um único item guardado localmente no seu navegador, via <code>localStorage</code> —
+          Dois itens guardados localmente no seu navegador, via <code>localStorage</code> —
           que é uma tecnologia parecida com cookie, mas que nunca é enviada ao servidor:
         </p>
         <ul>
@@ -128,10 +128,16 @@
             para que o site abra do jeito que você deixou na próxima visita. Guarda a palavra
             <code>light</code> ou <code>dark</code>. Nada além disso.
           </li>
+          <li>
+            <strong><code>privacy-notice</code></strong> — registra que você já dispensou o
+            aviso de privacidade exibido no rodapé da tela, para ele não reaparecer a cada
+            visita. Guarda a palavra <code>dismissed</code>.
+          </li>
         </ul>
         <p>
-          Esse item é estritamente necessário para a funcionalidade que você mesmo acionou ao
-          clicar no botão de tema, fica só no seu dispositivo e não permite identificar ninguém.
+          Os dois são estritamente necessários para funcionalidades que você mesmo acionou —
+          trocar o tema e dispensar o aviso. Ficam só no seu dispositivo e não permitem
+          identificar ninguém.
         </p>
 
         <h2>Como apagar</h2>
@@ -227,6 +233,16 @@
   </div>
 </footer>
 
-<script src="/js/main.js?v=20260802f"></script>
+<div class="privacy-notice" id="privacy-notice" role="region" aria-label="Aviso de privacidade">
+  <p>
+    Este site não usa cookies de rastreamento e não coleta dados pessoais. A única coisa
+    guardada no seu navegador é a preferência de tema.
+    <a href="/politica-de-privacidade/">Privacidade</a> ·
+    <a href="/politica-de-cookies/">Cookies</a>
+  </p>
+  <button type="button" id="privacy-notice-close">Entendi</button>
+</div>
+
+<script src="/js/main.js?v=20260802g"></script>
 </body>
 </html>

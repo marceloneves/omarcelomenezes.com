@@ -30,6 +30,25 @@
     });
   }
 
+  /* --- Aviso de privacidade --------------------------------------------
+     Não é banner de consentimento: o site não usa cookie nem coleta dado,
+     então não há o que consentir. É só o aviso, dispensável uma vez.     */
+  var notice = document.getElementById('privacy-notice');
+  if (notice) {
+    var seen = null;
+    try { seen = localStorage.getItem('privacy-notice'); } catch (e) { /* modo privado */ }
+    if (seen !== 'dismissed') {
+      window.setTimeout(function () { notice.classList.add('is-visible'); }, 900);
+    }
+    var dismiss = document.getElementById('privacy-notice-close');
+    if (dismiss) {
+      dismiss.addEventListener('click', function () {
+        notice.classList.remove('is-visible');
+        try { localStorage.setItem('privacy-notice', 'dismissed'); } catch (e) { /* ignora */ }
+      });
+    }
+  }
+
   /* --- Menu mobile ------------------------------------------------------ */
   var navToggle = document.getElementById('nav-toggle');
   var nav = document.getElementById('nav');
