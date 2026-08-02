@@ -775,12 +775,47 @@ strong { font-weight: 660; color: var(--text); }
   font-size: .84rem;
 }
 
-/* --- Pilares do método -------------------------------------------------- */
+/* --- Etapas do método --------------------------------------------------- */
+.stage + .stage {
+  margin-top: clamp(3rem, 6vw, 5rem);
+  padding-top: clamp(3rem, 6vw, 5rem);
+  border-top: 1px solid var(--line);
+}
+.stage-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1rem;
+  margin-bottom: 1.1rem;
+}
+.stage-letter {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.stage-head h2 { font-size: clamp(1.5rem, 3vw, 2rem); }
+.stage-lead { margin-top: .5rem; color: var(--text-soft); max-width: 62ch; }
+.stage-why {
+  margin: 0 0 2rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--line);
+  color: var(--text-soft);
+  font-size: .94rem;
+  max-width: 70ch;
+}
+
 .pillar-blocks {
   display: grid;
   gap: 1.25rem;
   grid-template-columns: 1fr;
-  margin-bottom: 3.4rem;
 }
 @media (min-width: 860px) {
   .pillar-blocks { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
