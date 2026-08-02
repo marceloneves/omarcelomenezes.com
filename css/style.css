@@ -1205,3 +1205,40 @@ body:has(.privacy-notice.is-visible) .wa-float { bottom: 104px; }
 }
 .post-cta h2 { font-size: 1.25rem; margin-bottom: .7rem; }
 .post-cta p { color: var(--text-soft); margin-bottom: 1.4rem; font-size: .95rem; }
+
+.card-link { margin-top: .9rem; font-size: .89rem; }
+.card-link a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color .18s var(--ease);
+}
+.card-link a:hover { border-bottom-color: var(--accent); }
+
+/* Segunda linha do rodapé: consultoria por cidade. */
+.footer-cities {
+  margin-top: clamp(2.2rem, 4vw, 3rem);
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--line);
+}
+.footer-cities h3 {
+  font-size: .78rem;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+.footer-cities ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem 1.4rem;
+  font-size: .85rem;
+}
+.footer-cities a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color .18s var(--ease), border-color .18s var(--ease);
+}
+.footer-cities a:hover { color: var(--accent); border-bottom-color: var(--accent); }
