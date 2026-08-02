@@ -71,7 +71,7 @@
       var site = val('cf-site');
       var servico = val('cf-servico');
 
-      var linhas = ['Oi Marcelo, vim pelo site.', '', 'Nome: ' + nome];
+      var linhas = ['Oi Marcelo, vim pelo site omarcelomenezes.com.', '', 'Nome: ' + nome];
       if (site) linhas.push('Site: ' + site);
       if (servico) linhas.push('Procuro: ' + servico);
       linhas.push('', msg);

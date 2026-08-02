@@ -1242,3 +1242,34 @@ body:has(.privacy-notice.is-visible) .wa-float { bottom: 104px; }
   transition: color .18s var(--ease), border-color .18s var(--ease);
 }
 .footer-cities a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* --- Faixa "O que é SEO?" ------------------------------------------------ */
+.band {
+  background: var(--accent);
+  color: #ffffff;
+  border-block: 0;
+}
+:root[data-theme="dark"] .band { color: #08130d; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .band { color: #08130d; }
+}
+.band h2 {
+  color: inherit;
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  margin-bottom: 1.6rem;
+}
+.band-text p { color: inherit; opacity: .92; }
+.band-text p + p { margin-top: 1.1rem; }
+.band-text strong { color: inherit; font-weight: 700; }
+.band-text em { font-style: italic; }
+.band-cta { margin-top: 1.9rem; }
+.band-cta a {
+  color: inherit;
+  font-weight: 620;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
+  padding-bottom: 2px;
+  opacity: 1;
+}
+.band-cta a:hover { opacity: .78; }
+.band :focus-visible { outline-color: currentColor; }

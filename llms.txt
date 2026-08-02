@@ -1,39 +1,79 @@
 # Marcelo Menezes
 
-> Consultor de SEO, GEO e AEO em Santa Catarina, atendendo empresas de todo o Brasil.
-> Atua em SEO técnico (rastreio, indexação, performance), visibilidade em motores
-> generativos (AI Overviews, ChatGPT, Perplexity, Copilot) e arquitetura de conteúdo
-> por intenção de busca. Trabalha na PMTurbo, agência sediada em Florianópolis/SC,
-> aplicando o método R.O.T.A.
+> Consultor de SEO, GEO e AEO com base em Florianópolis, Santa Catarina, atendendo
+> empresas de todo o Brasil. Trabalha com busca orgânica desde 2012. Jornalista com
+> registro profissional 0007446/SC. Fundou a PMTurbo em 2024, agência de SEO e GEO
+> em Florianópolis. Criou em 2019 o método R.O.T.A., um passo a passo de quatro
+> etapas para posicionar negócios na busca orgânica.
 
-Site de uma página só. Todo o conteúdo abaixo está em https://omarcelomenezes.com/.
+Contato: WhatsApp (48) 98810-5199 · marcelo@pmturbo.com
+Endereço: Rua Desembargador Vítor Lima, 260, Sala 214, Trindade, Florianópolis - SC,
+CEP 88040-401. Atendimento de segunda a sexta, das 08:00 às 18:00.
+
+## Páginas principais
+
+- [Início](https://omarcelomenezes.com/): apresentação, método, serviços em destaque e perguntas frequentes.
+- [Consultoria de SEO](https://omarcelomenezes.com/consultoria-de-seo/): o que é a consultoria, como funciona o ciclo de trabalho, para quem serve e para quem não serve.
+- [Serviços](https://omarcelomenezes.com/servicos/): onze frentes de trabalho, com o que é entregue em cada uma e o valor de partida.
+- [Método R.O.T.A.](https://omarcelomenezes.com/metodo-rota/): como o método nasceu em 2019, as quatro etapas e os trinta e dois tópicos que elas cobrem.
+- [Regiões atendidas](https://omarcelomenezes.com/regioes-atendidas/): base em Florianópolis e atendimento remoto nas dez maiores capitais.
+- [Ferramentas de SEO](https://omarcelomenezes.com/ferramentas-de-seo/): as ferramentas usadas nos projetos e o motivo de cada uma.
+- [Blog](https://omarcelomenezes.com/blog/): textos sobre busca orgânica escritos a partir de projeto real.
+- [Contato](https://omarcelomenezes.com/contato/): canais diretos, endereço e horário de atendimento.
 
 ## Serviços
 
-- [SEO Técnico](https://omarcelomenezes.com/#servicos): auditoria de rastreio, indexação, canonicalização, paginação, renderização JavaScript, análise de logs, orçamento de rastreio, Core Web Vitals (LCP, INP, CLS) e dados estruturados.
-- [GEO — Generative Engine Optimization](https://omarcelomenezes.com/#servicos): acesso de crawlers de IA, llms.txt, citabilidade em nível de parágrafo, monitoramento de menções de marca e estratégia por plataforma.
-- [AEO e estratégia de conteúdo](https://omarcelomenezes.com/#servicos): clusters semânticos por sobreposição de SERP, briefings competitivos, matriz de links internos e sinais de E-E-A-T.
+- [Consultoria de SEO](https://omarcelomenezes.com/servicos/#consultoria-de-seo): acompanhamento contínuo com prioridade definida a cada ciclo.
+- [Auditoria de SEO](https://omarcelomenezes.com/servicos/#auditoria-de-seo): diagnóstico técnico completo — rastreio, indexação, Core Web Vitals e oportunidades de ranqueamento. A partir de R$ 1.500.
+- [Criação de sites](https://omarcelomenezes.com/servicos/#criacao-de-sites): sites institucionais otimizados desde a estrutura. A partir de R$ 1.000.
+- [Criação de landing page](https://omarcelomenezes.com/servicos/#criacao-de-landing-page): páginas de alta conversão com SEO integrado. A partir de R$ 900.
+- [Criação de onepage](https://omarcelomenezes.com/servicos/#criacao-de-onepage): negócio inteiro em uma única página, otimizada para SEO local. A partir de R$ 1.050.
+- [SEO onpage](https://omarcelomenezes.com/servicos/#seo-onpage): títulos, meta descriptions, headings, conteúdo e estrutura interna. A partir de R$ 1.150.
+- [SEO offpage](https://omarcelomenezes.com/servicos/#seo-offpage): link building com backlinks de qualidade. A partir de R$ 1.150.
+- [SEO técnico](https://omarcelomenezes.com/servicos/#seo-tecnico): rastreio, velocidade, mobile e schema markup. A partir de R$ 1.000.
+- [SEO local](https://omarcelomenezes.com/servicos/#seo-local): Perfil de Empresa no Google, padronização de dados, páginas por região e avaliações. A partir de R$ 1.200.
+- [Marketing de conteúdo](https://omarcelomenezes.com/servicos/#marketing-de-conteudo): conteúdo alinhado à intenção de busca. A partir de R$ 800.
+- [Rastreamento de dados](https://omarcelomenezes.com/servicos/#rastreamento-de-dados): Search Console, Tag Manager, Analytics, Bing Webmaster Tools e Clarity. A partir de R$ 700.
 
 ## Método R.O.T.A.
 
-- [Raio-X](https://omarcelomenezes.com/#metodo): diagnóstico da posição atual em busca orgânica, Perfil de Empresa, Maps e plataformas de IA, com problemas já priorizados.
-- [Otimização](https://omarcelomenezes.com/#metodo): base técnica e credibilidade local — Perfil de Empresa ajustado, dados do negócio padronizados, gargalos de performance corrigidos.
-- [Tração](https://omarcelomenezes.com/#metodo): conteúdo local, páginas por região, links e geração de avaliações, convertendo posição em pedido de orçamento.
-- [Autoridade](https://omarcelomenezes.com/#metodo): sinais de reputação e menções dentro de respostas de ChatGPT e AI Overview.
+Criado em 2019. Quatro etapas fixas, sempre na mesma ordem.
 
-## Perguntas frequentes
+- [Raio-X](https://omarcelomenezes.com/metodo-rota/#etapa-raio-x): diagnóstico da posição atual no Google, no Perfil de Empresa, no Maps e nas respostas de IA, com os problemas em ordem de prioridade. Cobre buyer persona, jornada do cliente, estudo de palavras-chave e arquitetura web.
+- [Otimização](https://omarcelomenezes.com/metodo-rota/#etapa-otimizacao): base técnica — GoogleBot, rastreio, robots.txt, sitemap, Core Web Vitals, tipos de arquivo, códigos de resposta, indexação, canonical, hreflang, links internos, profundidade de clique e priorização.
+- [Tração](https://omarcelomenezes.com/metodo-rota/#etapa-tracao): qualidade do conteúdo — search intent, semântica, similaridade e duplicidade, conteúdo pobre e elementos de on page.
+- [Autoridade](https://omarcelomenezes.com/metodo-rota/#etapa-autoridade): popularidade — links internos e externos, profundidade de conteúdo, E-E-A-T, branding e sinais sociais.
 
-- [FAQ](https://omarcelomenezes.com/#faq): prazo de resultado, formato de contrato, SEO diante de AI Overviews, produção de conteúdo, troca de CMS, e-commerce, atendimento internacional, garantia de posição e como começar.
+## Consultoria de SEO por cidade
 
-## Contato
+Atendimento remoto, com base em Florianópolis. Não há escritório nas cidades abaixo;
+reuniões presenciais pontuais na empresa do cliente são combinadas caso a caso.
 
-- [Instagram @omarcelomenezes](https://www.instagram.com/omarcelomenezes/)
-- [Reddit u/omarcelomenezes](https://www.reddit.com/user/omarcelomenezes/)
-- [GitHub @marceloneves](https://github.com/marceloneves)
-- [WhatsApp (48) 98810-5199](https://wa.me/5548988105199)
+- [São Paulo - SP](https://omarcelomenezes.com/consultoria-de-seo/sao-paulo/): mercado com concorrência já profissionalizada e sites grandes, onde o ganho está no detalhe técnico.
+- [Rio de Janeiro - RJ](https://omarcelomenezes.com/consultoria-de-seo/rio-de-janeiro/): busca por bairro, não pela cidade inteira; páginas por região decidem o resultado.
+- [Brasília - DF](https://omarcelomenezes.com/consultoria-de-seo/brasilia/): público que compara antes de decidir; credencial e autoria pesam mais que a média.
+- [Fortaleza - CE](https://omarcelomenezes.com/consultoria-de-seo/fortaleza/): disputa concentrada no mapa; o trabalho começa pelo Perfil de Empresa, não pelo site.
+- [Salvador - BA](https://omarcelomenezes.com/consultoria-de-seo/salvador/): busca majoritariamente móvel; velocidade de carregamento decide a conversão.
+- [Belo Horizonte - MG](https://omarcelomenezes.com/consultoria-de-seo/belo-horizonte/): sites com muitos serviços listados e canibalização entre páginas.
+- [Manaus - AM](https://omarcelomenezes.com/consultoria-de-seo/manaus/): menos concorrência qualificada, onde o trabalho técnico rende mais rápido.
+- [Curitiba - PR](https://omarcelomenezes.com/consultoria-de-seo/curitiba/): mercado maduro, com concorrentes que já fazem SEO; o ganho vem do detalhe.
+- [Recife - PE](https://omarcelomenezes.com/consultoria-de-seo/recife/): polo de tecnologia com espaço em conteúdo técnico e visibilidade em IA.
+- [Goiânia - GO](https://omarcelomenezes.com/consultoria-de-seo/goiania/): dados do negócio divergentes entre site, Perfil de Empresa e redes.
+
+## Blog
+
+- [Minha história com SEO desde 2012](https://omarcelomenezes.com/blog/minha-historia-com-seo-desde-2012/): começou tentando vender os próprios produtos na internet, no mesmo ano do Penguin; o que mudou e o que não mudou em treze anos.
+
+## Perfis
+
+- [LinkedIn](https://www.linkedin.com/in/omarcelomenezes/)
+- [Instagram](https://www.instagram.com/omarcelomenezes/)
+- [Reddit](https://www.reddit.com/user/omarcelomenezes/)
+- [WhatsApp](https://wa.me/5548988105199)
 
 ## Optional
 
-- [PMTurbo](https://pmturbo.com/): agência onde atua, em Florianópolis/SC.
-- [Serviços da PMTurbo](https://pmturbo.com/servicos/)
-- [Método R.O.T.A. na PMTurbo](https://pmturbo.com/metodo-rota/)
+- [PMTurbo](https://pmturbo.com/): agência de SEO e GEO fundada por Marcelo Menezes em 2024, em Florianópolis.
+- [Política de Privacidade](https://omarcelomenezes.com/politica-de-privacidade/): este site não usa cookies, não roda analytics e não coleta dados pessoais.
+- [Política de Cookies](https://omarcelomenezes.com/politica-de-cookies/)
+- [Termos de Uso](https://omarcelomenezes.com/termos-de-uso/)
