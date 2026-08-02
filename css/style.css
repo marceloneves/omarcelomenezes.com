@@ -1277,3 +1277,34 @@ body:has(.privacy-notice.is-visible) .wa-float { bottom: 104px; }
 .footer-tagline { max-width: 42ch; }
 .footer-credential a { color: inherit; text-decoration: none; border-bottom: 1px solid transparent; }
 .footer-credential a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* --- Links dentro de texto corrido --------------------------------------
+   Cor sozinha não distingue link para quem tem baixa visão ou daltonismo.
+   Todo link em parágrafo, lista ou item de texto leva sublinhado.         */
+.prose p a,
+.prose li a,
+.post-body a,
+.privacy-notice p a,
+.side-card p a,
+.band-text p a,
+.footer-credential a,
+.stage-why a,
+.pillar li a,
+.region p a {
+  text-decoration: underline;
+  text-underline-offset: .18em;
+  text-decoration-thickness: .07em;
+}
+.prose p a:hover,
+.prose li a:hover,
+.post-body a:hover,
+.privacy-notice p a:hover,
+.side-card p a:hover,
+.band-text p a:hover,
+.footer-credential a:hover,
+.stage-why a:hover,
+.pillar li a:hover,
+.region p a:hover { text-decoration-thickness: .14em; }
+
+/* O aviso já sublinha; a borda de hover ficaria dobrada. */
+.privacy-notice a:hover { border-bottom-color: transparent; }
