@@ -47,9 +47,10 @@ Criado em 2019. Quatro etapas fixas, sempre na mesma ordem.
 
 ## Consultoria de SEO por cidade
 
-Atendimento remoto, com base em Florianópolis. Não há escritório nas cidades abaixo;
+Base em Florianópolis, onde o atendimento presencial é rotina. Nas demais cidades o trabalho é remoto e não há escritório;
 reuniões presenciais pontuais na empresa do cliente são combinadas caso a caso.
 
+- [Florianópolis - SC](https://omarcelomenezes.com/consultoria-de-seo/florianopolis/): praça-sede, único mercado com atendimento presencial de rotina; disputa por bairro e forte sazonalidade de verão.
 - [São Paulo - SP](https://omarcelomenezes.com/consultoria-de-seo/sao-paulo/): mercado com concorrência já profissionalizada e sites grandes, onde o ganho está no detalhe técnico.
 - [Rio de Janeiro - RJ](https://omarcelomenezes.com/consultoria-de-seo/rio-de-janeiro/): busca por bairro, não pela cidade inteira; páginas por região decidem o resultado.
 - [Brasília - DF](https://omarcelomenezes.com/consultoria-de-seo/brasilia/): público que compara antes de decidir; credencial e autoria pesam mais que a média.

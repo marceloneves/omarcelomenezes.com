@@ -1,0 +1,48 @@
+# Cabeçalhos de segurança e cache.
+# Tudo dentro de <IfModule>: se o módulo não existir, o servidor ignora
+# em vez de devolver 500.
+
+<IfModule mod_headers.c>
+    # HSTS: um ano, subdomínios incluídos.
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+    # Impede o navegador de adivinhar o tipo do arquivo.
+    Header always set X-Content-Type-Options "nosniff"
+
+    # Impede que o site seja embutido em iframe de terceiro.
+    Header always set X-Frame-Options "SAMEORIGIN"
+
+    # Envia o domínio como referência, nunca o caminho completo.
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+    # Desliga APIs que este site não usa.
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=(), usb=(), interest-cohort=()"
+
+    # CSP: o site é autocontido — CSS e JS próprios, imagens próprias,
+    # nenhum script de terceiro. 'unsafe-inline' em style-src cobre os
+    # poucos atributos style inline no HTML.
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'self'; frame-ancestors 'self'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
+
+    # Assets versionados por query string podem ser cacheados por um ano.
+    <FilesMatch "\.(css|js|webp|jpg|jpeg|png|ico|svg|woff2)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+
+    # HTML sempre revalidado, para que uma publicação apareça na hora.
+    <FilesMatch "\.html$">
+        Header set Cache-Control "public, max-age=0, must-revalidate"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/plain text/xml
+</IfModule>
+
+<IfModule mod_mime.c>
+    AddType application/manifest+json .webmanifest
+</IfModule>
+
+# Sem listagem de diretório.
+Options -Indexes
+
+ErrorDocument 404 /404.html
