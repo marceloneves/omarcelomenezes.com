@@ -817,19 +817,39 @@ strong { font-weight: 660; color: var(--text); }
   right: 20px;
   bottom: 20px;
   z-index: 140;
-  width: 56px;
-  height: 56px;
+  width: 72px;
+  height: 72px;
   display: grid;
   place-items: center;
   border-radius: 50%;
-  background: #25d366;
-  color: #0b3d1f;
+  background: #17a94e;
+  color: #ffffff;
   box-shadow: 0 10px 26px rgba(0, 0, 0, .28);
   transition: transform .2s var(--ease), box-shadow .2s var(--ease);
 }
-.wa-float svg { width: 30px; height: 30px; }
+.wa-float svg { width: 39px; height: 39px; position: relative; z-index: 1; }
+
+/* Anel que pulsa para fora do botão. */
+.wa-float::before,
+.wa-float::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: #25d366;
+  z-index: 0;
+  animation: wa-pulse 2.4s cubic-bezier(.24, .8, .4, 1) infinite;
+}
+.wa-float::after { animation-delay: 1.2s; }
+
+@keyframes wa-pulse {
+  0%   { transform: scale(1);    opacity: .55; }
+  70%  { transform: scale(1.85); opacity: 0; }
+  100% { transform: scale(1.85); opacity: 0; }
+}
+
 .wa-float:hover {
-  transform: translateY(-3px);
+  transform: translateY(-3px) scale(1.06);
   box-shadow: 0 16px 34px rgba(0, 0, 0, .34);
 }
 .wa-float:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
@@ -838,13 +858,15 @@ strong { font-weight: 660; color: var(--text); }
 body:has(.privacy-notice.is-visible) .wa-float { bottom: 104px; }
 
 @media (max-width: 520px) {
-  .wa-float { width: 52px; height: 52px; right: 16px; bottom: 16px; }
-  .wa-float svg { width: 27px; height: 27px; }
+  .wa-float { width: 64px; height: 64px; right: 16px; bottom: 16px; }
+  .wa-float svg { width: 35px; height: 35px; }
   body:has(.privacy-notice.is-visible) .wa-float { bottom: 148px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .wa-float { transition: none; }
   .wa-float:hover { transform: none; }
+  .wa-float::before,
+  .wa-float::after { animation: none; opacity: 0; }
 }
 
 /* --- Aviso de privacidade ----------------------------------------------- */
