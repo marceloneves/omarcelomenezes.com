@@ -14,7 +14,7 @@ CEP 88040-401. Atendimento de segunda a sexta, das 08:00 às 18:00.
 
 - [Início](https://omarcelomenezes.com/): apresentação, método, serviços em destaque e perguntas frequentes.
 - [Consultoria de SEO](https://omarcelomenezes.com/consultoria-de-seo/): o que é a consultoria, como funciona o ciclo de trabalho, para quem serve e para quem não serve.
-- [Serviços](https://omarcelomenezes.com/servicos/): onze frentes de trabalho, com o que é entregue em cada uma e o valor de partida.
+- [Serviços](https://omarcelomenezes.com/servicos/): doze frentes de trabalho, com o que é entregue em cada uma e o valor de partida.
 - [Método R.O.T.A.](https://omarcelomenezes.com/metodo-rota/): como o método nasceu em 2019, as quatro etapas e os trinta e dois tópicos que elas cobrem.
 - [Regiões atendidas](https://omarcelomenezes.com/regioes-atendidas/): base em Florianópolis e atendimento remoto nas dez maiores capitais.
 - [Ferramentas de SEO](https://omarcelomenezes.com/ferramentas-de-seo/): as ferramentas usadas nos projetos e o motivo de cada uma.
@@ -32,6 +32,7 @@ CEP 88040-401. Atendimento de segunda a sexta, das 08:00 às 18:00.
 - [SEO offpage](https://omarcelomenezes.com/servicos/#seo-offpage): link building com backlinks de qualidade. A partir de R$ 1.150.
 - [SEO técnico](https://omarcelomenezes.com/servicos/#seo-tecnico): rastreio, velocidade, mobile e schema markup. A partir de R$ 1.000.
 - [SEO local](https://omarcelomenezes.com/servicos/#seo-local): Perfil de Empresa no Google, padronização de dados, páginas por região e avaliações. A partir de R$ 1.200.
+- [Google Meu Negócio](https://omarcelomenezes.com/servicos/#google-meu-negocio): criação, verificação e otimização do Perfil da Empresa no Google.
 - [Marketing de conteúdo](https://omarcelomenezes.com/servicos/#marketing-de-conteudo): conteúdo alinhado à intenção de busca. A partir de R$ 800.
 - [Rastreamento de dados](https://omarcelomenezes.com/servicos/#rastreamento-de-dados): Search Console, Tag Manager, Analytics, Bing Webmaster Tools e Clarity. A partir de R$ 700.
 
