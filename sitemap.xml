@@ -31,6 +31,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://omarcelomenezes.com/blog/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://omarcelomenezes.com/blog/minha-historia-com-seo-desde-2012/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://omarcelomenezes.com/parceiros/</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
