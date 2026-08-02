@@ -49,6 +49,38 @@
     }
   }
 
+  /* --- Formulário de contato -------------------------------------------
+     Não há backend: os campos viram uma mensagem de WhatsApp, que o
+     visitante revisa e envia. Nenhum dado sai daqui por conta própria. */
+  var contactForm = document.getElementById('contact-form');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var err = document.getElementById('cf-error');
+      var val = function (id) { return (document.getElementById(id).value || '').trim(); };
+
+      var nome = val('cf-nome');
+      var msg = val('cf-msg');
+      if (!nome || !msg) {
+        if (err) err.hidden = false;
+        (nome ? document.getElementById('cf-msg') : document.getElementById('cf-nome')).focus();
+        return;
+      }
+      if (err) err.hidden = true;
+
+      var site = val('cf-site');
+      var servico = val('cf-servico');
+
+      var linhas = ['Oi Marcelo, vim pelo site.', '', 'Nome: ' + nome];
+      if (site) linhas.push('Site: ' + site);
+      if (servico) linhas.push('Procuro: ' + servico);
+      linhas.push('', msg);
+
+      window.open('https://wa.me/5548988105199?text=' +
+        encodeURIComponent(linhas.join('\n')), '_blank', 'noopener');
+    });
+  }
+
   /* --- Menu mobile ------------------------------------------------------ */
   var navToggle = document.getElementById('nav-toggle');
   var nav = document.getElementById('nav');
