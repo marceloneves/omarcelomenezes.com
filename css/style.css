@@ -1121,3 +1121,49 @@ body:has(.privacy-notice.is-visible) .wa-float { bottom: 104px; }
   margin-bottom: .9rem;
   border-bottom: 1px solid var(--line);
 }
+
+/* --- Parceiros ---------------------------------------------------------- */
+.partner-group + .partner-group {
+  margin-top: clamp(2.8rem, 5vw, 4.2rem);
+  padding-top: clamp(2.8rem, 5vw, 4.2rem);
+  border-top: 1px solid var(--line);
+}
+.partner-group .section-head { margin-bottom: 2rem; }
+.partner-group .card-num { text-transform: none; letter-spacing: .02em; }
+.partner-group .card h3 { margin: .8rem 0 .7rem; }
+.partner-group .card h3 a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color .18s var(--ease), border-color .18s var(--ease);
+}
+.partner-group .card h3 a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+.partner-group .card .btn-ext { font-size: .78em; opacity: .6; }
+
+/* --- Blog --------------------------------------------------------------- */
+.post-list { display: grid; gap: 1.25rem; }
+.post-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.7rem 1.6rem;
+}
+.post-card time {
+  font-family: var(--font-mono);
+  font-size: .78rem;
+  color: var(--accent);
+  letter-spacing: .06em;
+}
+.post-card h2 { font-size: 1.3rem; margin: .6rem 0 .7rem; }
+.post-card h2 a { text-decoration: none; }
+.post-card h2 a:hover { color: var(--accent); }
+.post-card p { font-size: .94rem; color: var(--text-soft); }
+
+.post-empty {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 1.9rem 1.8rem;
+}
+.post-empty p { color: var(--text-soft); }
+.post-empty a { color: var(--accent); }
