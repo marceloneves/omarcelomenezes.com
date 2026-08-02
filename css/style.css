@@ -775,6 +775,44 @@ strong { font-weight: 660; color: var(--text); }
   font-size: .84rem;
 }
 
+/* --- Pilares do método -------------------------------------------------- */
+.pillar-blocks {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr;
+  margin-bottom: 3.4rem;
+}
+@media (min-width: 860px) {
+  .pillar-blocks { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+}
+.pillar {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.6rem 1.5rem;
+}
+.pillar h3 {
+  font-size: 1rem;
+  letter-spacing: .01em;
+  margin-bottom: 1.1rem;
+  padding-bottom: .8rem;
+  border-bottom: 1px solid var(--line);
+}
+.pillar ul { list-style: none; padding: 0; display: grid; gap: .85rem; }
+.pillar li {
+  position: relative;
+  padding-left: 1.15rem;
+  font-size: .9rem;
+  line-height: 1.55;
+  color: var(--text-soft);
+}
+.pillar li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
 /* --- Regiões ------------------------------------------------------------ */
 .region-base {
   background: var(--surface);
