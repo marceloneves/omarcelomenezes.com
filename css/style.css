@@ -1319,3 +1319,9 @@ body:has(.privacy-notice.is-visible) .wa-float { bottom: 104px; }
   text-decoration-thickness: .07em;
 }
 .region-base .region-link { margin-top: 1.1rem; }
+
+/* Card da praça-sede: destacado dentro da grade. */
+.regions li:first-child {
+  border-left: 3px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 6%, var(--surface));
+}
