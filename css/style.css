@@ -390,6 +390,30 @@ p + p { margin-top: 1rem; }
   to   { transform: translateX(-50%); }
 }
 
+/* --- Portrait ----------------------------------------------------------- */
+.portrait {
+  margin: 2.2rem 0 0;
+  max-width: 340px;
+}
+.portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  filter: saturate(.92);
+}
+.portrait figcaption {
+  margin-top: .7rem;
+  font-size: .82rem;
+  color: var(--text-soft);
+}
+@media (max-width: 899px) {
+  .portrait { max-width: 260px; }
+}
+
 /* --- Stats -------------------------------------------------------------- */
 .stats {
   display: grid;
