@@ -1111,3 +1111,13 @@ body:has(.privacy-notice.is-visible) .wa-float { bottom: 104px; }
   .reveal { opacity: 1; transform: none; }
   .marquee-track { animation: none; }
 }
+
+.side-card address {
+  font-style: normal;
+  font-size: .92rem;
+  line-height: 1.6;
+  color: var(--text-soft);
+  padding-bottom: .9rem;
+  margin-bottom: .9rem;
+  border-bottom: 1px solid var(--line);
+}
