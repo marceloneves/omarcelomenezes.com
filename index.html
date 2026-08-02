@@ -26,7 +26,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon-180.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#0b0c0b">
-<link rel="stylesheet" href="css/style.css?v=20260803k">
+<link rel="stylesheet" href="css/style.css?v=20260803l">
 
 <script type="application/ld+json">
 {
@@ -155,7 +155,13 @@
         ],
         "opens": "08:00",
         "closes": "18:00"
-      }
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -27.5967953,
+        "longitude": -48.5226342
+      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=-27.5967953,-48.5226342"
     },
     "makesOffer": [
       {
@@ -424,7 +430,28 @@
         "opens": "08:00",
         "closes": "18:00"
       },
-      "email": "marcelo@pmturbo.com"
+      "email": "marcelo@pmturbo.com",
+      "location": {
+        "@type": "Place",
+        "name": "PMTurbo — Florianópolis",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua Desembargador Vítor Lima, 260 — Sala 214",
+          "addressLocality": "Florianópolis",
+          "addressRegion": "SC",
+          "postalCode": "88040-401",
+          "addressCountry": {
+            "@type": "Country",
+            "name": "BR"
+          }
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -27.5967953,
+          "longitude": -48.5226342
+        },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=-27.5967953,-48.5226342"
+      }
     },
     "email": "marcelo@pmturbo.com"
   },
@@ -603,12 +630,8 @@
         <strong>captar leads e clientes através do Google e da IA</strong>.
       </p>
       <div class="hero-cta reveal">
-        <a class="btn btn-primary" href="#contato">Falar sobre seu projeto</a>
-        <a class="btn btn-ghost" href="https://pmturbo.com/servicos/" target="_blank" rel="noopener">
-          Ver serviços
-          <span class="btn-ext" aria-hidden="true">↗</span>
-          <span class="sr-only">(abre em nova aba, site PMTurbo)</span>
-        </a>
+        <a class="btn btn-primary" href="/contato/">Falar sobre seu projeto</a>
+        <a class="btn btn-ghost" href="/servicos/">Ver serviços</a>
       </div>
     </div>
 
@@ -1122,6 +1145,6 @@
   <button type="button" id="privacy-notice-close">Entendi</button>
 </div>
 
-<script src="js/main.js?v=20260803k" defer></script>
+<script src="js/main.js?v=20260803l" defer></script>
 </body>
 </html>
