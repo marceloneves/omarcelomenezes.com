@@ -1266,7 +1266,7 @@ body:has(.privacy-notice.is-visible) .wa-float { --wa-lift: -84px; }
 /* A figura entra no meio do texto, então o espaçamento vale dos dois lados —
    o seletor `p + p` abaixo não alcança o parágrafo que vem depois dela. */
 .band-figure {
-  margin-block: 1.9rem;
+  margin-block: 3.2rem;
   margin-inline: 0;
 }
 .band-figure img {
